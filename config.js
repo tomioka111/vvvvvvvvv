@@ -11,23 +11,23 @@ global.Owner = ['201098906252']
 global.OwnerNumber = ['201098906252']
 global.ownertag = ['201098906252']
 global.BotName = "❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️"
-global.packname = "★الجزار الوزير يروحي★"
+global.packname = "★الجزار الوزير يروحي★️"
 global.author = "★01098906252★"
 global.OwnerName = "ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️"
-global.BotSourceCode = "https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"
-global.SupportGroupLink = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
+global.BotSourceCode = "https://github.com/Ayush-pandey-u/Chiku-MD"
+global.SupportGroupLink = "https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"
 global.sessionName = "session"
 
 // Prefix //
 // 🎗don't change the prefix if you can change the prefix may be bot doesn't work properly//
-global.prefa = ['-'] 
+global.prefa = ['.'] 
 
 
 global.location = "bihar, India"
 global.reactmoji = "❤️"
-global.themeemoji = "🍭"
+global.themeemoji = "🐤"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
+global.websitex = "https://github.com/Ayush-pandey-u/Chiku-MD"
 global.lolhuman = "KaysaS"
 
 
