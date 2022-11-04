@@ -3278,7 +3278,7 @@ reply(mess.error)
 } )
  console.log(musim_rambutan)
  const mikutiktokop = musim_rambutan.result.watermark
-texttk = `_Please choose the button below_`
+texttk = `_اختار من الزر_`
 let buttons = [
 {buttonId: `.ttnowm ${q}`, buttonText: {displayText: 'Watermark Free'}, type: 1},
 {buttonId: `.ttaud ${q}`, buttonText: {displayText: 'صوتي '}, type: 1}
@@ -3329,7 +3329,7 @@ break
 
 
 
-case 'play2': case 'ytplay2': {
+case 'play': case 'شغل': {
     if (isBan) return reply(mess.banned)
         if (isBanChat) return reply(mess.bangc)
      reply(mess.wait)
@@ -3338,12 +3338,16 @@ case 'play2': case 'ytplay2': {
     let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
     let ytvc = await hx.youtube(anu.url)
     let buttons = [
-    {buttonId: `.ytmp4 ${anu.url}`, buttonText: {displayText: '► Video'}, type: 1},
-    {buttonId: `.ytmp3 ${anu.url}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+    {buttonId: `.ytmp4 ${anu.url}`, buttonText: {displayText: '► فيديو'}, type: 1},
+    {buttonId: `.ytmp3 ${anu.url}`, buttonText: {displayText: '♫ صوتي'}, type: 1}
                     ]
                     let buttonMessage = {
                         image: { url: anu.thumbnail},
-                        caption: `「 _chiku Youtube Player_ 」
+                        caption: `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ⟮*◉بحث يوتيوب◉*⟯ 
+   
+0.02━◉━━━━━━━━━━━━3.26
+      🔂   ⏪   ⏸️     ⏩  🎵
 
     Title : ${anu.title}
     ID : ${anu.videoId}
@@ -3362,21 +3366,25 @@ case 'play2': case 'ytplay2': {
                 break
           
                 
-case 'ytdl2': case 'yt2': case 'youtube2':{
+case 'بحث': case 'yt2': case 'youtube2':{
 	if (isBan) return reply(mess.banned)
 	if (isBanChat) return reply(mess.bangc)
  reply(mess.wait)
 if (!args[0]) return reply(mess.nolink)
 try {
 hx.youtube(args[0]).then(async(res) => {
-textyt = `「 _Miku Youtube Downloader_ 」
+textyt = `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ⟮*◉بحث يوتيوب◉*⟯ 
+   
+0.02━◉━━━━━━━━━━━━3.26
+      🔂   ⏪   ⏸️     ⏩  🎵
 Title : ${res.title}
 Size : ${res.size}
 Quality : ${res.quality}
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `.ytmp4 ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `.ytmp3 ${res.link}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `.ytmp4 ${res.link}`, buttonText: {displayText: '► فيديو'}, type: 1},
+{buttonId: `.ytmp3 ${res.link}`, buttonText: {displayText: '♫ صوتي'}, type: 1}
 ]
 let buttonMessage = {
 image: {url:res.thumb},
@@ -3394,7 +3402,7 @@ reply("Error link!")
 }
 break
 
-case 'play': case 'شغل': {
+case 'play2': case 'تشغيل': {
                 if (!text) throw `مثال : ${prefix + command} story wa anime`
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -4967,6 +4975,10 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
 
 ⧉ .شغل
 ⧉ البحث عن مقطع أغنية 
+
+.تشغيل
+⧉ سيرفر تاني للتنزيل من يوتيوب
+
  
 ⧉ .فيلم
 ⧉ البحث عن معلومات فلم
