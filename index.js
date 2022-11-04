@@ -26,14 +26,14 @@ console.log(color(figlet.textSync('chiku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Ayush, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Ayush-pandey-u','aqua'))
+console.log(color('\nمرحبًا ، أنا الجزار ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
+console.log(color('\nافرح تم تشغيل البوت بنجاح✅','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['chiku by: ayush','Safari','1.0.0'],
+        browser: ['elgazar by: abdallah','mohamed','1.0.0'],
         auth: state,
         version
     })
@@ -45,7 +45,7 @@ store.bind(Miku.ev)
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await Miku.sendContact(callerId, global.owner)
-    Miku.sendMessage(callerId, { text: `Baka! You will be blocked automatically for calling me!`}, { quoted : pa7rick })
+    Miku.sendMessage(callerId, { text: `حبيبي! سيتم حظرك تلقائيا لاتصالك بي!`}, { quoted : pa7rick })
     await sleep(8000)
     await Miku.updateBlockStatus(callerId, "block")
     }
@@ -97,19 +97,19 @@ Miku.ev.on('groups.update', async pea => {
         if (pea[0].announce == true) {
         //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Miku Bot`, wm_fatih, [])
 
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم اغلاق الجروب يمكن لادمن فقط ارسال الرسائل!'})
         } else if(pea[0].announce == false) {
        // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Miku Bot`, wm_fatih, [])
-       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!'})
+       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم فتح الجروب الان يمكن للجميع ارسال الرسائل!'})
         } else if (pea[0].restrict == true) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم تعديل معلومات المجموعة يمكن الان لادمن فقط تعديل معلومات المجموعة !'})
         } else if (pea[0].restrict == false) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم تعديل معلومات المجموعة الآن يمكن للجميع  تعديل معلومات المجموعة !'})
         } else {
         //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Miku Bot`, wm_fatih, [])
-        mikutextddfq =`Group Subject has been updated To:\n\n*${pea[0].subject}*`
+        mikutextddfq =`تم تحديث اسم الجروب إلى:\n\n*${pea[0].subject}*`
         Miku.sendMessage(pea[0].id, { image: wm_fatih, caption: mikutextddfq})
       }
      })
@@ -149,16 +149,18 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 mikutext = `
-Hello baby @${WAuserName.split("@")[0]},
+هلا بيك/ي يعمري @${WAuserName.split("@")[0]},
 
-I am *chiku*, Welcome to ${metadata.subject}.
+انا *ᗷOT-ᗴᒪᘜᗩᘔᗩᖇ*, مرحبا بك في ${metadata.subject}.
 
-*Group Description:*
+*وصف الجروب:*
 ${metadata.desc}
+
+نورت/ي الجروب يقمر🌚❤️
 `
 
     let buttonMessage = {
-    image: await getBuffer(ppgroup),
+    image: await getBuffer(ppuser),
     mentions: [num],
     caption: mikutext,
     footer: `${global.BotName}`,
@@ -168,9 +170,9 @@ Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     mikutext = `
-bye baby🧸, @${WAuserName.split("@")[0]},
+مع السلامه 👋, @${WAuserName.split("@")[0]},
 
-we never miss you🤭!
+مع السلامه اللي يغور يجي مكانو طابور😍, واللي بعنا خسر دلعنا😂💔!
 `
 
     let buttonMessage = {
@@ -259,14 +261,14 @@ we never miss you🤭!
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = lastDisconnect.error ? lastDisconnect?.error?.output.statusCode : 0;
-            if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); process.exit(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, reconnecting...."); startMiku(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, reconnecting..."); startMiku(); }
-            else if (reason === DisconnectReason.connectionReplaced) { console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); process.exit(); }
-            else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Delete Session and Scan Again.`); process.exit(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startMiku(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startMiku(); }
-            else { console.log(`Unknown DisconnectReason: ${reason}|${connection}`) }
+            if (reason === DisconnectReason.badSession) { console.log(`ملف جلسة تالف ، يرجى حذف الجلسة والمسح مرة أخرى`); process.exit(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("تم إغلاق الاتصال ، جاري إعادة الاتصال...."); startMiku(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("انقطع الاتصال من الخادم ، جاري إعادة الاتصال..."); startMiku(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("تم استبدال الاتصال ، وفتح جلسة جديدة أخرى ، يرجى إغلاق الجلسة الحالية أولاً"); process.exit(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`تم تسجيل خروج الجهاز ، يرجى حذف الجلسة والمسح الضوئي مرة أخرى.`); process.exit(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("مطلوب إعادة التشغيل ، إعادة التشغيل..."); startMiku(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("انتهى وقت الاتصال ، جاري إعادة الاتصال..."); startMiku(); }
+            else { console.log(`سبب قطع الاتصال غير معروف: ${reason}|${connection}`) }
         }
         //console.log('Connected...', update)
     })
