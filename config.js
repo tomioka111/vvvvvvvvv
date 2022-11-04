@@ -7,27 +7,27 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['919006765023']
-global.OwnerNumber = ['919006765023']
-global.ownertag = ['919006765023']
-global.BotName = "chiku"
-global.packname = "chiku-bot"
-global.author = "By: Ayush"
-global.OwnerName = "Ayush"
-global.BotSourceCode = "https://github.com/Ayush-pandey-u/Chiku-MD"
-global.SupportGroupLink = "https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"
+global.Owner = ['201098906252']
+global.OwnerNumber = ['201098906252']
+global.ownertag = ['201098906252']
+global.BotName = "❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️"
+global.packname = "★الجزار الوزير يروحي★"
+global.author = "★01098906252★"
+global.OwnerName = "ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️"
+global.BotSourceCode = "https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"
+global.SupportGroupLink = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
 global.sessionName = "session"
 
 // Prefix //
 // 🎗don't change the prefix if you can change the prefix may be bot doesn't work properly//
-global.prefa = ['.'] 
+global.prefa = ['-'] 
 
 
 global.location = "bihar, India"
 global.reactmoji = "❤️"
 global.themeemoji = "🍭"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://github.com/Ayush-pandey-u/Chiku-MD"
+global.websitex = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
 global.lolhuman = "KaysaS"
 
 
@@ -58,19 +58,19 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
-    botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Baka!',
-    grouponly: 'This command is only made for *Groups*, Baka!',
-    privateonly: 'This command is only made for *Private Chat*, Baka!',
-    botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Chotto Matte...',
-    nolink: 'Please provide me *link*, Baka!',
-    error: 'An error occurd!',
-    banned: 'You are *Banned* fron using commands!',
-    bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+    jobdone: 'تم...',
+    useradmin: '『 الامر دا لادمن بس! 』',
+    botadmin: '『 ارفع البوت ادمن الاول 』',
+    botowner: 'الميزه دي للمالك بس!',
+    grouponly: '『 الميزه دي للجروبات بس! 』',
+    privateonly: '『 الميزه دي في الخاص بس! 』',
+    botonly: '『 الميزه دي للبوت بس! 』',
+    waiting: '『 استني شويه... 』',
+    nolink: '『 فين الرابط? 』',
+    error: '『 ايرور! 』',
+    banned: '『 انت محظور من استخدام البوت اتواصل مع المطور لالغاء حظرك! 』',
+    bangc: '『 تم حظر الجروب دا من استخدام البوت! 』',
+    nonsfw: '『 اكتب المجهوله واختار فتح ثم اكتب .القائمه-المجهوله! 』'
     
 }
 
