@@ -3349,14 +3349,14 @@ case 'play': case 'شغل': {
 0.02━◉━━━━━━━━━━━━3.26
       🔂   ⏪   ⏸️     ⏩  🎵
 
-    Title : ${anu.title}
-    ID : ${anu.videoId}
-    Duration : ${anu.timestamp}
-    Viewers : ${anu.views}
-    Uploaded : ${anu.ago}
-    Author : ${anu.author.name}
-    Channel : ${anu.author.url}
-    Url : ${anu.url}`,
+    عنوان : ${anu.title}
+    ايدي : ${anu.videoId}
+    الوصف : ${anu.timestamp}
+    المشاهدات : ${anu.views}
+    التحميل : ${anu.ago}
+    مؤلف : ${anu.author.name}
+    القناه : ${anu.author.url}
+    الرابط : ${anu.url}`,
                         footer: `${BotName}`,
                         buttons: buttons,
                         headerType: 4
@@ -3378,10 +3378,10 @@ textyt = `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
    
 0.02━◉━━━━━━━━━━━━3.26
       🔂   ⏪   ⏸️     ⏩  🎵
-Title : ${res.title}
-Size : ${res.size}
-Quality : ${res.quality}
-_Select video or audio and wait a while_`
+عنوان : ${res.title}
+الحجم : ${res.size}
+الجوده : ${res.quality}
+_حدد الفيديو أو الصوت وانتظر بعض الوقت_`
 let buttons = [
 {buttonId: `.ytmp4 ${res.link}`, buttonText: {displayText: '► فيديو'}, type: 1},
 {buttonId: `.ytmp3 ${res.link}`, buttonText: {displayText: '♫ صوتي'}, type: 1}
@@ -3403,27 +3403,27 @@ reply("Error link!")
 break
 
 case 'play2': case 'تشغيل': {
-                if (!text) throw `مثال : ${prefix + command} story wa anime`
+                if (!text) throw `مثال : ${prefix + command} حلقه انمي ناروتو`
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `${prefix}ytmp3 ${anu.url}`, buttonText: {displayText: 'صوتي'}, type: 1},
-                    {buttonId: `${prefix}ytmp4 ${anu.url}`, buttonText: {displayText: 'فيديو'}, type: 1}
+                    {buttonId: `${prefix}ytmp3 ${anu.url}`, buttonText: {displayText: '♫ صوتي'}, type: 1},
+                    {buttonId: `${prefix}ytmp4 ${anu.url}`, buttonText: {displayText: '► فيديو'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-${themeemoji} Title : ${anu.title}
-${themeemoji} Ext : Search
-${themeemoji} ID : ${anu.videoId}
-${themeemoji} Duration : ${anu.timestamp}
-${themeemoji} Viewers : ${anu.views}
-${themeemoji} Upload At : ${anu.ago}
-${themeemoji} Author : ${anu.author.name}
-${themeemoji} Channel : ${anu.author.url}
-${themeemoji} Description : ${anu.description}
-${themeemoji} Url : ${anu.url}`,
+${themeemoji} العنوان : ${anu.title}
+${themeemoji} تحويلة : Search
+${themeemoji} ايدي : ${anu.videoId}
+${themeemoji} مدة : ${anu.timestamp}
+${themeemoji} المشاهدات : ${anu.views}
+${themeemoji} تحميل في : ${anu.ago}
+${themeemoji} مؤلف : ${anu.author.name}
+${themeemoji} القناه : ${anu.author.url}
+${themeemoji} الوصف : ${anu.description}
+${themeemoji} الرابط : ${anu.url}`,
                     footer: Miku.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -5174,7 +5174,7 @@ case '':
       mikupic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = `مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه البادئه الخاصه بي هي *${prefix}*.`
+ const needhelpmenu = `مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه البادئه الخاصه بي هي *${prefix}*`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
