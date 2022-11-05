@@ -6,10 +6,10 @@
 
 
 </p>
-<h1 align="center"> chiku (Beta)
+<h1 align="center"> ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "chiku md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  أنا "الجزار بوت" روبوت واتساب تم إنشاؤه بواسطة الجزار الوزير للقيام بكل ما هو ممكن على واتساب بناءً على دعم واتساب (MD) ELGAZAR..
 
 <p align="center">
   <a href="https://github.com/Ayush-pandey-u/Chiku-MD/fork">
@@ -32,64 +32,63 @@
       
 </br> 
    
-#### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
+#### ✧✧ لا يزال هذا الروبوت قيد التطوير ، لذا إذا كنت تريد إعادة ترميزه / تعديله ، فيرجى التحقق من هذا الريبو الرئيسي مرة واحدة كل يومين لأنني أقوم باستمرار بتصحيحه وإجراء تغييرات كبيرة فيه.
 </br>
   
 
-## ✧✧✧ Why use chiku as your Base?
+## ✧✧✧ لماذا تستخدم ELGAZAR كقاعدة لك?
 
 ```
-1. Copyright Free.
-2. No Source Code Encryption.
-3. Most commands.
-4. Singe prefix ("-").
-5. Self restoration.
-6. No API key needed!
-7. Full premission to Recode.
-8. Regularly Updating and Improving.
-9. Supports Latest WhatsApp, GB, Fouad, Alpha, YoWhatsApp and all other mods (MD).
+1. حقوق الطبع والنشر خالية.
+2. لا يوجد تشفير شفرة المصدر.
+3. معظم الأوامر.
+4. بادئة مفردة ("-").
+5. استعادة الذات.
+6. لا حاجة لمفتاح API!
+7. فرضية كاملة لإعادة الترميز.
+8. التحديث والتحسين بانتظام.
+9. يدعم أحدث WhatsApp و GB و Fouad و Alpha و YoWhatsApp وجميع التعديلات الأخرى (MD).
 
-✧ The main motto of this project is to provide Beginner Devs a base without any limitations 😊.
-✧ Check "Credits" section and Support Them too.
+✧ الشعار الرئيسي لهذا المشروع هو توفير قاعدة للمطورين المبتدئين دون أي قيود 😊.
+✧ تحقق من قسم "الاعتمادات" ودعمهم أيضًا.
 
--regards Ayush
+-تحية للجميع
 ```
 </br>
 
-## ✧✧✧ Video tutorial for Heroku Deploy:
+## ✧✧✧ اشترك في قناتي باليوتيوب لدعمي في الاستمرار في تطوير البوت:
 
-<a href="https://youtu.be/DcJ7qMXUcTM"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
+<a href="https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
-Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
+سيتم نشر طريقه تفعيل البوت علي هذه القناه.
 
-## ✧✧✧ Heroku Deployment Method:
+## ✧✧✧ طريقة نشر هيروكو:
 
-####  Scan indirectly from my `repl.it`
+####  مسح بشكل غير مباشر من ملف `` repl.it`
 
-#### <a href="https://Chiku-QR.ayushpandey954.repl.co"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
-#### if you can see device not connected error then refresh The qr page and scan again within 15 seconds
+#### <a href="https://bot-elgazar-qr--bm077197.repl.co/"><img src="https://i.imgur.com/SYoMXG2.png" alt="replit-logo-png-transparent" border="0"  width="250"></a>
+#### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
-#### ✧ [![chiku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ayush-pandey-u/Chiku-MD)
+#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jhsishdjjsk/Chiku-MD)
+
+
+#### ✧ `Fork` هذه الريبو.
+#### مسح بشكل غير مباشر من "Rep.it" الخاص بي
+#### ✧ قم بتنزيل ملف `session.json` وحمله على ملف` Fork` الخاص بك.
+#### ✧ اذهب إلى حساب "Heroku" الخاص بك.
+#### ✧ قم بإنشاء "تطبيق عشوائي" في Heroku بأي اسم.
+#### ✧ قم بتوصيل "GitHub" بـ "Heroku"
+#### ✧ ثم قم بتوصيل "ELGAZAR's repo" من GitHub الخاص بك.
+#### ✧ انتقل إلى "إعدادات" Heroku ---> "إضافة Buildpacks" ثم قم بتوصيل حزم البناء الثلاثة واحدة تلو الأخرى المذكورة أدناه.
+#### ✧ ثم ارجع إلى "Heroku" ---> "نشر" ثم انشر التطبيق
+#### ✧ بعد انتهاء النشر ، انتقل إلى "Heroku" ---> "الموارد" وقم بتشغيل المفتاح.
+#### ✧ استمتع :)
 
 
 
-#### ✧ `Fork` this repo.
-####  Scan indirectly from my `repl.it`
-#### ✧ Download the `session.json` file and upload it on the hompage of your `Fork`.
-#### ✧ Go to your `Heroku` account.
-#### ✧ Create a `random app` in Heroku with any name.
-#### ✧ Connect your `GitHub` with `Heroku`
-#### ✧ Then connect `chiku's repo` from your GitHub.
-#### ✧ Go to Heroku's `settings` ---> `Add Buildpacks` then connect these 3 buildpacks one by one mentionned    below.
-#### ✧ Then come back to `Heroku` ---> `Deploy` then deploy the app
-#### ✧ After deploy is finished goto `Heroku` ---> `Resources` and turn on the switch.
-#### ✧ Enjoy :)
 
-
-
-
-## ✧ Heroku Builbpacks:
+## ✧ حزم هيروكو:
 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
@@ -102,28 +101,62 @@ heroku/nodejs
 ```
 
 
-## ✧✧✧ Join My Whatsapp Group for Support
+## ✧✧✧ انضم الي جروب الدعم للمساعده
 
-<a href="https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
-## ✧✧✧ CMD Deployment Method
+## ✧✧✧ طريقه النشر علي تيرمكس
 
-##git clone(https://github.com/Ayush-pandey-u/Chiku-MD.git)
+##git clone(https://github.com/Jhsishdjjsk/Chiku-MD)
 ##cd Miku-MD
 npm i
 
 
-### ✧ Requirements for CMD istallation:
+### ✧ متطلبات الاستغناء عن CMD:
 - Git
 - Node.js
 - Libwebp
 - FFmpeg
 
-Note: If you don't pre-install these plugins before CMD Installation bot couldn't execute name commands!
+Note: إذا لم تقم بتثبيت هذه المكونات الإضافية مسبقًا قبل أن يتعذر على برنامج تيرمكس Installation bot تنفيذ أوامر الاسم!
 </br> 
 
-## ✧✧✧ Bot prefix is changed now (.menu)
+## ✧✧✧ التنصيب علي تيرمكس
+```js
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/Ayush-pandey-u/Chiku-MD
+cd Chiku-MD
+npm i
+npm start
+```
+
+## ✧✧✧ لإبقاء Elgazar على قيد الحياة بدون الإنترنت 24/7
+
+```
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
 
 
-`Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2) for vn message 
+
+
+
+
+
+
+
+
+
+     
+
+
+
