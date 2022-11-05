@@ -2445,7 +2445,7 @@ if (isBanChat) return reply(mess.bangc)
  }
  break
 
- case 'tagall': case 'منشن': case 'وهمي': case 'مخفي': {
+ case 'tagall': case 'منشن': case 'تاك': {
 if (!isCreator) return
 if (!m.isGroup) throw mess.group
 let teks = `
@@ -3340,7 +3340,7 @@ break
 
 
 
-case 'play': case 'شغل': {
+case 'play': case 'شغل': case 'song': {
     if (isBan) return reply(mess.banned)
         if (isBanChat) return reply(mess.bangc)
      reply(mess.wait)
