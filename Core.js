@@ -2380,7 +2380,7 @@ case 'happymod': case 'هابي-مود': {
  case 'yts': case 'ابحث': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
- if (!args.join(" ")) return replay(`Example : .yts Heat waves`)
+ if (!args.join(" ")) return replay(`مثال : .ابحث Heat waves`)
  let yts = require("yt-search")
  let search = await yts(args.join(" "))
  let teks = '```「 YouTube search Engine 」```\n\n Search Term: '+text+'\n\n'
@@ -2453,7 +2453,7 @@ if (!m.isGroup) throw mess.group
 let teks = `
 ══✪〘 👥 منشن للكل 〙✪══
 •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• 
-INFO: ${q ? q : 'kosong'}
+معلومات: ${q ? q : 'elgazar'}
 •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
  for (let mem of participants) {
  teks += `
@@ -3450,7 +3450,7 @@ ${themeemoji} الرابط : ${anu.url}`,
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
-                Miku.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m)
+                Miku.sendImage(m.chat, media.thumb, `${themeemoji} العنوان : ${media.title}\n${themeemoji} حجم الملف : ${media.filesizeF}\n${themeemoji} الرابط : ${isUrl(text)}\n${themeemoji} النوع : صوتي\n${themeemoji} القرار : ${args[1] || '128kbps'}`, m)
                 Miku.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -3460,7 +3460,7 @@ ${themeemoji} الرابط : ${anu.url}`,
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
-                Miku.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                Miku.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `${themeemoji} العنوان : ${media.title}\n${themeemoji} حجم الملف : ${media.filesizeF}\n${themeemoji} الرابط : ${isUrl(text)}\n${themeemoji} النوع : فيديو\n${themeemoji} القرار : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
 
