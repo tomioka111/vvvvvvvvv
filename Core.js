@@ -2447,20 +2447,33 @@ if (isBanChat) return reply(mess.bangc)
  }
  break
 
- case 'منشن': case 'tagall': case 'تاك':{
-    if (isBan) return reply(mess.banned)	 			
- if (isBanChat) return reply(mess.bangc)
- if (!m.isGroup) return replay(mess.grouponly)
- if (!isAdmins && !isCreator) return replay(mess.useradmin)
- let teks = `══✪〘 *منشن للكل👥* 〙✪══
-  
- *الرساله : ${args.join(" ") ? args.join(" ") : 'لا توجد رساله'}*\n\n`
+ case 'tagall': case 'منشن': case 'وهمي': case 'مخفي': {
+if (!isCreator) return
+if (!m.isGroup) throw mess.group
+let teks = `
+══✪〘 👥 منشن للكل 〙✪══
+•━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• 
+INFO: ${q ? q : 'kosong'}
+•━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
  for (let mem of participants) {
- teks += `🐤 @${mem.id.split('@')[0]}\n`
+ teks += `
+ ╭━═════════════━• 
+ │➳ @${mem.id.split('@')[0]}
+ ╰━═════════════━•
+ •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
  }
- Miku.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
- }
- break
+ Miku.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id),
+contextInfo: {
+externalAdReply: {
+title: `©⏤͟͟͞𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛`,
+body:`Runtime ${runtime(process.uptime())}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g`,
+thumbnailUrl: `https://telegra.ph/file/9d09a00e6c16ca29eead1.jpg`
+}}})
+}
+break
 
  case 'hidetag': case 'وهمي': case 'مخفي': {
     if (isBan) return reply(mess.banned)	 			
