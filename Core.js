@@ -689,18 +689,16 @@ let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
 reply(`
-Pls try not to tag him!
-He's in away from keyboard ${reason ? 'with reason ' + reason : 'no reason'}
-During ${clockString(new Date - afkTime)}
+متعملش ريب عليه لانه في وضع الاختفاء الان ${reason ? 'السبب ' + reason : 'بدون سبب'}
+مده الغياب ${clockString(new Date - afkTime)}
 `.trim())
 }
 
 if (db.users[m.sender].afkTime > -1) {
 let user = global.db.users[m.sender]
 reply(`
-Pls try not to tag him!
-He's Offline ${user.afkReason ? ' after ' + user.afkReason : ''}
-During ${clockString(new Date - user.afkTime)}
+منور لقد عدت ${user.afkReason ? ' السبب ' + user.afkReason : ''}
+مده الغياب ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
 user.afkReason = ''
@@ -2453,7 +2451,7 @@ if (!m.isGroup) throw mess.group
 let teks = `
 ══✪〘 👥 منشن للكل 〙✪══
 •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• 
-معلومات: ${q ? q : 'elgazar'}
+الرساله: ${q ? q : 'مفيش رساله'}
 •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
  for (let mem of participants) {
  teks += `
