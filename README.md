@@ -103,7 +103,7 @@ heroku/nodejs
 
 ## ✧✧✧ انضم الي جروب الدعم للمساعده
 
-<a href="https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/DHq2KYcAzWG95WTpzVQx3D"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ## ✧✧✧ طريقه النشر علي تيرمكس
