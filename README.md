@@ -108,8 +108,8 @@ heroku/nodejs
 
 ## ✧✧✧ طريقه النشر علي تيرمكس
 
-##git clone(https://github.com/Jhsishdjjsk/Chiku-MD)
-##cd Miku-MD
+##git clone(https://github.com/Jhsishdjjsk/ELGAZAR-MD)
+##cd ELGAZAR-MD
 npm i
 
 
@@ -134,8 +134,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Ayush-pandey-u/Chiku-MD
-cd Chiku-MD
+git clone https://github.com/Ayush-pandey-u/ELGAZAR-MD
+cd ELGAZAR-MD
 npm i
 npm start
 ```
