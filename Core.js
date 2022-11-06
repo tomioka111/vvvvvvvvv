@@ -2192,7 +2192,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  if (!isBotAdmins) return replay(mess.botadmin)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
  if (args[0] === "on") {
- if (<LinkTwitter) return replay('بالفعل نشط')
+ if (AntiLinkTwitter) return replay('بالفعل نشط')
  ntilinkall.push(from)
  replay('تم تفعيل منع جميع الروابط !')
  var groupe = await Miku.groupMetadata(from)
