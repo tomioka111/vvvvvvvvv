@@ -875,13 +875,13 @@ if (antiVirtex) {
         if (AntiLinkAll)
            if (budy.includes("https://")){
         if (!isBotAdmins) return
-        bvl = `\`\`\`「  Antilink System  」\`\`\`\n\nLink sent by Admin so no action will be taken!`
+        bvl = `\`\`\`「  منع الروابط  」\`\`\`\n\nالادمن بعت رابط والادمن يبعت اللي هوا عايزو!`
         if (isAdmins) return reply(bvl)
         if (m.key.fromMe) return reply(bvl)
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending links in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  منع الروابط  」\`\`\`\n\n@${kice.split("@")[0]} تم ازالته لإرسال رابط في الجروب!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -2192,7 +2192,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  if (!isBotAdmins) return replay(mess.botadmin)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
  if (args[0] === "on") {
- if (AntiLinkTwitter) return replay('بالفعل نشط')
+ if (<LinkTwitter) return replay('بالفعل نشط')
  ntilinkall.push(from)
  replay('تم تفعيل منع جميع الروابط !')
  var groupe = await Miku.groupMetadata(from)
@@ -2234,7 +2234,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  members.map(async adm => {
  mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
  })
- Miku.sendMessage(from, {text: `\`\`\`*「  Warning/تحذير  」*\`\`\`\n\nAntilink is enabled/تم تفعيل منع الروابط!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ Miku.sendMessage(from, {text: `\`\`\`*「  Warning/تحذير  」*\`\`\`\n\nتم تفعيل منع الروابط!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!antiWame) return replay('تم إلغاء تنشيطه بالفعل')
  let off = nttoxic.indexOf(from)
