@@ -1326,7 +1326,7 @@ const ftroli = {
 
 
     const menulist = `
-    ELGAZAR ${pushname} 👋.انا العزيز ${global.BotName}, بوت تم تطويري بواسطة: الجزار للانتقال باستخدام واتساب إلى المستوى التالي.
+    70o0o0da BEH ${pushname} 👋.انا العزيز ${global.BotName}, بوت تم تطويري بواسطة: حوده بيه للانتقال باستخدام واتساب إلى المستوى التالي.
         
        「 System Info 」
     
@@ -4864,8 +4864,8 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
       
  const helpmenu =`هاي*${pushname}*,
 
-انا *BOT ELGAZAR❤️*, 
-تم تطويري بواسطة * ELGAZAR ALWAZER❤️ *.
+انا *BOT 70o0o0da BEH❤️*, 
+تم تطويري بواسطة *70o0o0da BEH❤️*.
 
 ♠️ البادئة الخاصة بي هي:  ${prefix}
  
@@ -5141,7 +5141,7 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
 
 
  『  *${global.BotName}*  』
- *تم التطوير بواسطه:الجزار*
+ *تم التطوير بواسطه:حوده بيه*
 `
 
 
@@ -5172,7 +5172,7 @@ case '':
       mikupic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = `مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه البادئه الخاصه بي هي *${prefix}*`
+ const needhelpmenu = `مرحبا بك في بوت حوده بيه لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه البادئه الخاصه بي هي *${prefix}*`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5190,11 +5190,11 @@ break
 
 
 
-case 'الجزار': case 'عبدالله': case 'جزار':
+case 'حوده': case 'محمود':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `الجزار بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201098906252 / قناتي علي اليوتيوب: https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g / الانستجرام بتاعي: https://instagram.com/a_d_a_l_l_a_h?igshid=YmMyMTA2M2Y=`
+const txt = `حوده بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201095902427 / انستجرامي: https://instagram.com/70o0o0da_12?igshid=YmMyMTA2M2Y=`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
