@@ -2452,8 +2452,7 @@ if (isBanChat) return reply(mess.bangc)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
  let teks = `══✪〘 *منشن للكل👥* 〙✪══
   
- ❐*الرساله : ${args.join(" ") ? args.join(" ") : 'مفيش رساله'}*\n\n`
- ❐ *صاحب المنشن:* ${citel.pushName} 🔖
+ *الرساله : ${args.join(" ") ? args.join(" ") : 'مفيش رساله'}*\n\n`
  for (let mem of participants) {
  teks += `🐤 @${mem.id.split('@')[0]}\n`
  }
