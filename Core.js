@@ -2451,18 +2451,18 @@ if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
  let textt = `══✪〘 👥 منشن للكل 〙✪══
-
+ 
 ❐ *الرساله :* ${args.join(" ") ? args.join(" ") : "لا توجد رساله"}\n\n
 ❐ *صاحب المنشن:* ${citel.pushName} 🔖
 `
         for (let mem of participants) {
-            textt += `🐤 @${mem.id.split("@")[0]}\n`;
+            textt += `🗿 @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
             mentions: participants.map((a) => a.id),
         }, {
-            quoted: m })
+            quoted: citel, })
  }
  break
 
