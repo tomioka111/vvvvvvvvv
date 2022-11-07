@@ -1417,7 +1417,7 @@ case 'بروفايل': case 'profile': case 'انا':
      var flob = await getBuffer(picak+'User Profile')
      var bio= await Miku.fetchStatus(m.sender)
      var bioo = bio.status
-     const adn= isAdmins? "ادمن":"مش ادمن"
+     const adn= isAdmins? "ادمن":"عضو"
      
      try {
         
@@ -1428,7 +1428,7 @@ case 'بروفايل': case 'profile': case 'انا':
       pfp ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
     }
 
-     const profilexx = `*『 معلومات البروفايل』*\n\n*المنشن*: ${pushname}\n*البايو*: ${bioo}\n*ادمن فالجروب?*: ${adn}\n*لفل* : ${levelMenu}\n*اكس بي* : ${xpMenu}*مستمر ل* ${reqXp}\n*مستوي* : ${role}`
+     const profilexx = `*『 صورتك قمر زيك يروحي🥺♥✨ 』*\n\n*المنشن*: ${pushname}\n*البايو*: ${bioo}\n*حالتك في الجروب?*: ${adn}\n*لفل* : ${levelMenu}\n*اكس بي* : ${xpMenu}*مستمر ل* ${reqXp}\n*مستوي* : ${role}`
  
 
 
@@ -2445,33 +2445,26 @@ if (isBanChat) return reply(mess.bangc)
  }
  break
 
- case 'tagall': case 'منشن': case 'تاك': {
-if (!isCreator) return
-if (!m.isGroup) throw mess.group
-let teks = `
-══✪〘 👥 منشن للكل 〙✪══
-•━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• 
-الرساله: ${q ? q : 'مفيش رساله'}
-•━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
- for (let mem of participants) {
- teks += `
- ╭━═════════════━• 
- │➳ @${mem.id.split('@')[0]}
- ╰━═════════════━•
- •━══〘𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛〙══━• `
+ case 'منشن': case 'tagall': case 'تاك':{
+    if (isBan) return reply(mess.banned)	 			
+ if (isBanChat) return reply(mess.bangc)
+ if (!m.isGroup) return replay(mess.grouponly)
+ if (!isAdmins && !isCreator) return replay(mess.useradmin)
+ let textt = `══✪〘 👥 منشن للكل 〙✪══
+
+❐ *الرساله :* ${args.join(" ") ? args.join(" ") : "لا توجد رساله"}\n\n
+❐ *صاحب المنشن:* ${citel.pushName} 🔖
+`
+        for (let mem of participants) {
+            textt += `🐤 @${mem.id.split("@")[0]}\n`;
+        }
+        Void.sendMessage(citel.chat, {
+            text: textt,
+            mentions: participants.map((a) => a.id),
+        }, {
+            quoted: m })
  }
- Miku.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id),
-contextInfo: {
-externalAdReply: {
-title: `©⏤͟͟͞𝘌𝘓Ｇ𝘈𝘡𝘈𝘙 𝘉𝘖𝘛`,
-body:`Runtime ${runtime(process.uptime())}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g`,
-thumbnailUrl: `https://telegra.ph/file/9d09a00e6c16ca29eead1.jpg`
-}}})
-}
-break
+ break
 
  case 'hidetag': case 'وهمي': case 'مخفي': {
     if (isBan) return reply(mess.banned)	 			
@@ -5283,7 +5276,7 @@ case 'add': case 'اضافه':{
         if (isBanChat) return reply(mess.bangc)
         if (!m.isGroup) return replay(mess.grouponly)
     reply(`جاري إعادة التشغيل .... يرجى الانتظار حتى يستجيب Rep.it ...`)						
-    var replqr =  await getBuffer(`https://Chiku-QR.ayushpandey954.repl.co`)
+    var replqr =  await getBuffer(`https://bot-elgazar-qr--bm077197.repl.co/`)
                                var qrbutton = [
             {buttonId: `.qr`, buttonText: {displayText: `باركود جديد`}, type: 1}
             ]
