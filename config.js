@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['201095902427']
-global.OwnerNumber = ['201095902427']
-global.ownertag = ['201095902427']
-global.BotName = "❤️𝘉𝘖𝘛 70o0o0da 𝘉𝘌𝘏❤️"
-global.packname = "★حودا بيه يكلب★️"
-global.author = "★01095902427★"
-global.OwnerName = "❤️70o0o0da 𝘉𝘌𝘏❤️️"
-global.BotSourceCode = "https://instagram.com/70o0o0da_12?igshid=YmMyMTA2M2Y="
-global.SupportGroupLink = "https://instagram.com/70o0o0da_12?igshid=YmMyMTA2M2Y="
+global.Owner = ['967771160204']
+global.OwnerNumber = ['967771160204']
+global.ownertag = ['967771160204']
+global.BotName = "❤️الامبراطور انوس ❤️"
+global.packname = "★أمير الا حلام★️"
+global.author = "★+966 50 994 8594★"
+global.OwnerName = "❤️الامبراطور انوس ❤️️"
+global.BotSourceCode = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
+global.SupportGroupLink = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
 global.sessionName = "session"
 
 // Prefix //
