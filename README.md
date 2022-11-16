@@ -1,4 +1,4 @@
-<img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
+<img src="https://telegra.ph/file/1592262447c5ce8714b60.jpg" width="25"></h2>
 <img align="center" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
 
 
@@ -66,7 +66,7 @@
 
 ####  مسح بشكل غير مباشر من ملف `` repl.it`
 
-#### <a href="https://bot-elgazar-qr--bm077197.repl.co/"><img src="https://i.imgur.com/SYoMXG2.png" alt="replit-logo-png-transparent" border="0"  width="250"></a>
+#### <a href="https://EMPERORANUS.bxxnxns.repl.co"><img src="https://i.imgur.com/SYoMXG2.png" alt="replit-logo-png-transparent" border="0"  width="250"></a>
 #### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
