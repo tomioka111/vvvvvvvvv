@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['+20 109 207 7820']
-global.OwnerNumber = ['+20 109 207 7820']
-global.ownertag = ['+20 109 207 7820']
-global.BotName = "❤️LEVIا❤️"
+global.Owner = ['967771160204']
+global.OwnerNumber = ['967771160204']
+global.ownertag = ['967771160204']
+global.BotName = "❤️الامبراطور انوس ❤️"
 global.packname = "◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢"
 global.author = "★+967771160204 ★"
-global.OwnerName = "❤️LEVI ❤️️"
+global.OwnerName = "❤️الامبراطور انوس ❤️️"
 global.BotSourceCode = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
 global.SupportGroupLink = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
 global.sessionName = "session"
