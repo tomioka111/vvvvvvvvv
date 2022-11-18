@@ -5006,7 +5006,6 @@ case '':
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
-                {buttonId: `.owner`, buttonText: {displayText: 'انوس'}, type: 1}
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,
