@@ -58,7 +58,7 @@
 
 ## ✧✧✧ اشترك في قناتي باليوتيوب لدعمي في الاستمرار في تطوير البوت:
 
-<a href="https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
+<a href="https://youtu.be/8v7smdKSklA"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
 سيتم نشر طريقه تفعيل البوت علي هذه القناه.
 
@@ -103,7 +103,7 @@ heroku/nodejs
 
 ## ✧✧✧ انضم الي جروب الدعم للمساعده
 
-<a href="https://chat.whatsapp.com/DHq2KYcAzWG95WTpzVQx3D"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ## ✧✧✧ طريقه النشر علي تيرمكس
