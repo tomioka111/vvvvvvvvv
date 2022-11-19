@@ -4993,29 +4993,6 @@ https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
                 }
 				
 break
-
-      case 'انوسي':{
-	   var unicorn = await getBuffer(picak+'المالك')
-const buttons = [
-  {buttonId: 'انوس', buttonText: {displayText: 'المطور'}, type: 1},
-  {buttonId: 'الاوامر', buttonText: {displayText: 'الاوامر '}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'مطور البوت👤'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `╔═══════⋄「 اوامر المطور ⚜️」	
-│➳ شير
-│➳ حظر
-│➳ بلوك 
-│➳ عام
-│➳ خاص
-│➳ انظم
-│➳ اخرج
-│➳ بان
-│➳ فك-البلوك
-╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐`,
-  
-break
  
 
 case '':
