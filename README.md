@@ -66,11 +66,11 @@
 
 ####  مسح بشكل غير مباشر من ملف `` repl.it`
 
-#### <a href="https://EMPERORANUS.bxxnxns.repl.co"><img src="https://i.imgur.com/SYoMXG2.png" alt="replit-logo-png-transparent" border="0"  width="250"></a>
+#### <a href="https://replit.com/@bxxnxns/EMPERORANUS-5"><img src="https://i.imgur.com/SYoMXG2.png" alt="replit-logo-png-transparent" border="0"  width="250"></a>
 #### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
-#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jhsishdjjsk/Chiku-MD)
+#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bxhsbshheusv/vvvvvvvvv)
 
 
 #### ✧ `Fork` هذه الريبو.
@@ -150,7 +150,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 
-
+## ✧✧✧ انوس عمك رقم التوصل +967771160204 ◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢
 
 
 
